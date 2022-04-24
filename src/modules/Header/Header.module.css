@@ -1,13 +1,21 @@
 .nav {
   padding: 15px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .link {
   color: var(--light-text-color);
+  padding: 0 10px;
+  height: 30px;
+  display: flex;
+  font-size: 18px;
+  align-items: center;
+  text-decoration: none;
 
-  &:hover {
+  &:hover,
+  &:global(.active) {
+    text-decoration: none;
     color: var(--dark-text-color);
   }
 }

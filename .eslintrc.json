@@ -75,7 +75,7 @@
             "group": "internal"
           },
           {
-            "pattern": "react",
+            "pattern": "preact",
             "group": "external",
             "position": "before"
           }
