@@ -4,10 +4,15 @@ body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: #fafafa;
+  background-color: #2381e3;
+  background-size: 100% auto;
+  background-position: 0 -50%;
+  background-repeat: no-repeat;
+  background-image: url('./assets/background.jpg');
+ /* background: #fafafa;*/
   font-family: 'Press Start 2P', cursive;
   font-weight: 400;
-  color: #444;
+  color: #fafafa;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
