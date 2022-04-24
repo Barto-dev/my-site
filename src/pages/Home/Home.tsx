@@ -1,11 +1,15 @@
 import { FunctionalComponent } from 'preact';
 
+import cn from 'classnames';
+
+import { nesContainerClass } from '@app/utils/nesStyleClass';
+
 const Home: FunctionalComponent = () => {
   return (
     <section>
-      <div className="wrapper">
-        <div className="nes-container is-rounded is-dark">
-          <p>Home</p>
+      <div className="wrapper-small">
+        <div className={cn(nesContainerClass)}>
+          Home
         </div>
       </div>
     </section>
