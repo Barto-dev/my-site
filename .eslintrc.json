@@ -93,6 +93,7 @@
   },
   "ignorePatterns": [
     "src/**/*props.ts",
-    "index.d.ts"
+    "index.d.ts",
+    "vite.config.ts"
   ]
 }
