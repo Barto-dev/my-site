@@ -1,0 +1,13 @@
+.nav {
+  padding: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.link {
+  color: var(--light-text-color);
+
+  &:hover {
+    color: var(--dark-text-color);
+  }
+}

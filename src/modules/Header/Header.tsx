@@ -1,15 +1,17 @@
 import { Link } from 'preact-router/match';
 
+import styles from './Header.module.css';
+
 const Header = () => {
   return (
-    <header>
+    <header className={styles.header}>
       <div className="wrapper">
-        <nav aria-label="Site navigation">
-          <Link href="/">Home</Link>
-          <Link href="/">My works</Link>
-          <Link href="/">Technology</Link>
-          <Link href="/">About</Link>
-          <Link href="/">Achievements</Link>
+        <nav className={styles.nav} aria-label="Site navigation">
+          <Link className={styles.link} href="/">Home</Link>
+          <Link className={styles.link} href="/works">My works</Link>
+          <Link className={styles.link} href="/technology">Technology</Link>
+          <Link className={styles.link} href="/about">About</Link>
+          <Link className={styles.link} href="/achievements">Achievements</Link>
         </nav>
       </div>
     </header>
