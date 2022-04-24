@@ -4,7 +4,9 @@ const Home: FunctionalComponent = () => {
   return (
     <section>
       <div className="wrapper">
-        Home
+        <div className="nes-container is-rounded is-dark">
+          <p>Home</p>
+        </div>
       </div>
     </section>
   );

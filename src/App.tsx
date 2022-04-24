@@ -1,9 +1,10 @@
 import { Router } from 'preact-router';
 
 import Layout from '@app/components/Layout/Layout';
-
-import About from './pages/About/About';
-import Home from './pages/Home/Home';
+import About from '@app/pages/About/About';
+import Home from '@app/pages/Home/Home';
+import MyWorks from '@app/pages/MyWorks/MyWorks';
+import Technology from '@app/pages/Technology/Technology';
 
 const App = () => {
   return (
@@ -11,6 +12,8 @@ const App = () => {
       <Router>
         <Home path="/" />
         <About path="/about" />
+        <MyWorks path="/works" />
+        <Technology path="/technology" />
       </Router>
     </Layout>
   );

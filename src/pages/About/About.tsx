@@ -7,7 +7,9 @@ const About: FunctionalComponent = () => {
   return (
     <section>
       <div className="wrapper">
-        about
+        <div className="nes-container is-rounded is-dark">
+          <p>About</p>
+        </div>
       </div>
     </section>
   );
