@@ -1,3 +1,29 @@
 .learn {
   margin-bottom: 30px;
 }
+
+.learned {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-gap: 10px;
+}
+
+.learnedItem {
+  display: flex;
+  justify-content: space-between;
+}
+
+.learnedLink {
+  max-width: 500px;
+}
+
+.title {
+  margin: 0 0 25px;
+  font-size: 16px;
+}
+
+.date {
+  word-spacing: -5px;
+}

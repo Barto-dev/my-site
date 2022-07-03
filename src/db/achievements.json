@@ -1,0 +1,39 @@
+{
+  "achievements": [
+    {
+      "name": "Advanced React + Typescript",
+      "link": "https://www.udemy.com/course/react-and-typescript-build-a-portfolio-project/",
+      "date": "2021-4-17"
+    },
+    {
+      "name": "HolyJS 2020",
+      "link": "https://www.youtube.com/watch?v=oO_4X8HwSTc&list=PL8sJahqnzh8KkFDsx3tAM8t1kOMn89CwU&ab_channel=HolyJS",
+      "date": "2021-3-21"
+    },
+    {
+      "name": "I ❤ Frontend 2021",
+      "link": "https://www.youtube.com/watch?v=-1I8LuqcCNA&ab_channel=%D0%A4%D1%80%D0%BE%D0%BD%D1%82%D0%B5%D0%BD%D0%B4",
+      "date": "2021-2-27"
+    },
+    {
+      "name": "GDG Devfest 2020",
+      "link": "https://www.youtube.com/watch?v=WfzKd16LplI&list=PLOfNCkiofFKAiWvNcOKXRpHCLxB8K0Qph&index=43&ab_channel=GDGRussia",
+      "date": "2020-12-31"
+    },
+    {
+      "name": "Chrome Developer Summit 2020",
+      "link": "https://www.youtube.com/playlist?list=PLNYkxOF6rcIDzLmWaDwfHVZJl1Q5RFgOR",
+      "date": "2020-12-29"
+    },
+    {
+      "name": "SoftServe web certification",
+      "link": "https://career.softserveinc.com/en-us/certification/internal",
+      "date": "2020-12-11"
+    },
+    {
+      "name": "Progressive Web Apps (PWA) - The Complete Guide",
+      "link": "https://www.udemy.com/course/progressive-web-app-pwa-the-complete-guide/",
+      "date": "2020-11-22"
+    }
+  ]
+}
