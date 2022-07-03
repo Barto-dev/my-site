@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "classnames": "^2.3.1",
+    "focus-visible": "^5.2.0",
     "preact": "^10.5.15",
     "preact-router": "^4.0.1"
   },

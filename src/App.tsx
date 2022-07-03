@@ -1,4 +1,5 @@
 import { Router } from 'preact-router';
+import 'focus-visible';
 
 import Layout from '@app/components/Layout/Layout';
 import About from '@app/pages/About/About';
