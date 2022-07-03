@@ -1,7 +1,12 @@
 {
   "achievements": [
     {
-      "name": "Advanced React + Typescript",
+      "name": "Chat app with NodeJS, React & GraphQL",
+      "link": "https://www.youtube.com/watch?v=LvfJ2wEpMrs&list=PLMhAeHCz8S3_VYiYxpcXtMz96vePOuOX3&ab_channel=Classsed",
+      "date": "2021-5-2"
+    },
+    {
+      "name": "Advanced React+Typescript",
       "link": "https://www.udemy.com/course/react-and-typescript-build-a-portfolio-project/",
       "date": "2021-4-17"
     },
@@ -26,7 +31,7 @@
       "date": "2020-12-29"
     },
     {
-      "name": "SoftServe web certification",
+      "name": "SoftServe Web certification",
       "link": "https://career.softserveinc.com/en-us/certification/internal",
       "date": "2020-12-11"
     },

@@ -3,23 +3,23 @@ import { FunctionalComponent } from 'preact';
 import cn from 'classnames';
 
 import data from '@app/db/achievements.json';
+import { getLocalDate } from '@app/utils/getLocalDate';
 import { nesContainerClass } from '@app/utils/nesStyleClass';
 
 import styles from './Achievments.module.css';
-import { getLocalDate } from '@app/utils/getLocalDate';
 
 const Achievements: FunctionalComponent = () => {
   return (
     <div className="wrapper-small">
       <section className={styles.learn}>
+        <h2 className={styles.title}>Now I am learning</h2>
         <div className={cn(nesContainerClass)}>
-          {/*<h2 className={styles.title}>Now I am learning</h2>*/}
           <a href="https://advancedreact.com/">https://advancedreact.com/</a>
         </div>
       </section>
 
+      <h2 className={styles.title}>Courses, workshops, conferences</h2>
       <div className={cn(nesContainerClass)}>
-        {/*<h2 className={styles.title}>Courses, workshops, conferences</h2>*/}
         <ul className={styles.learned}>
           {data.achievements.map((item) => (
             <li className={styles.learnedItem} key={item.name}>
